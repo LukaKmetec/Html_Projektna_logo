@@ -284,12 +284,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
 --------------------------------------*/
 .model-search-content .col-sm-12 {padding: 0;}
 .model-search-content {
-    padding: 40px 0;
+    padding: 20px 0;
     background: #fff;
     box-shadow:0 10px 40px 0px rgba(38,40,64,.2);
     position: absolute;
-    bottom: -110px;
-    height: 230px;
+    bottom: -100px;
+    height: 200px;
     width: 100%;
     border-radius: 30px;
     border-color: transparent
@@ -355,7 +355,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
         5. Service 
 --------------------------------------*/
 .service { 
-    padding: 260px 0 87px;
+    padding: 150px 0 87px;
 }
 
 .single-service-item{
@@ -406,7 +406,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
 --------------------------------------*/
 .new-cars{
     background: #fff;
-    padding:112px 0 120px;
+    padding:20px 0 120px;
 }
 .new-cars-content{padding-top:96px;}
 /*.new-cars-txt*/
@@ -441,7 +441,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
         7. Featured-cars
 --------------------------------------*/
 .featured-cars{
-    padding:112px 0 120px;
+    padding:20px 0 120px;
 }
 .featured-cars-content{padding-top:96px;}
 
@@ -475,7 +475,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
 /*-------------------------------------       
         8. Clients-say 
 --------------------------------------*/
-.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+.clients-say{padding:0px 0 80px;background: #f8f9fb;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -551,7 +551,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
         9. Brand
 --------------------------------------*/
 .brand{
-    padding: 120px 0;
+    padding: 20px 0;
 }
 .brand-area {
     position:relative;
@@ -563,8 +563,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
 .brand .brand-area .owl-carousel .owl-item img {
     display: block;
     width: 100%;
-    height:72px;
+    height:100%;
     border-radius:0;
+    align-items: center;
+    align-content: center;
 }
 /*-------------------------------------
         10. Blog
@@ -578,6 +580,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
     height: 200px;
     align-items: center;
     align-content: center;
+    text-align: center;
     width: auto;
     display: flex;
 }
@@ -592,6 +595,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F58229;}
     -moz-transition:.3s; 
     -ms-transition:.3s;
     transition: .3s;
+}
+.pcont{
+    margin-left: 31%;
+    color: black;
+    font-size: 12px;
+    display: flex;
 }
 .footer-top {padding: 112px 0 72px;}
 
